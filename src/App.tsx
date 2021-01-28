@@ -62,7 +62,7 @@ function App() {
             <FontAwesomeIcon icon={faTwitterSquare} />
           </a>
           <a
-            href="#https://github.com/jicking"
+            href="https://github.com/jicking"
             className="btn btn-lg btn-secondary fw-bold border-white bg-white mx-2"
             rel="noreferrer"
             target="_blank"
