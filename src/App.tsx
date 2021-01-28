@@ -15,7 +15,7 @@ function App() {
     <div className="cover-container d-flex w-100 p-3 mx-auto flex-column ">
       <header className="mb-4">
         <div>
-          <h3 className="float-md-start mb-0 text-center">Jicking</h3>
+          <h3 className="float-md-start mb-0 text-center">JICKING</h3>
           <nav className="nav nav-masthead justify-content-center float-md-end">
             <a className="nav-link active" aria-current="page" href="#">
               Home
