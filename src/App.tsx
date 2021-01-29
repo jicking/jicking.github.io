@@ -77,14 +77,6 @@ function App() {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a
-            href="https://drive.google.com/file/d/1ViCMvwd8lf7fJXCWJ351Y_1LamjXLLhI/view?usp=sharing"
-            className="btn btn-lg btn-secondary fw-bold border-white bg-white mx-2"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faFilePdf} />
-          </a>
         </p>
       </main>
 
