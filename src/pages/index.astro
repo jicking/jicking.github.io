@@ -1,8 +1,37 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+// check this for layout inspiration
+// https://www.tuomokankaanpaa.com/
 ---
 
+<Layout title="Jicking Bebiro - Fullstack Developer">
+	<main>
+		<h1>Jicking Bebiro</h1>
+		<sub>Fullstack Developer | .NET, JAM Stack, DevOps </sub>
+
+		<h2>Yooo, I'm Jicking!</h2>
+		<p>I'm a Fullstack Web Developer. I like to work with and teach .NET and JAM Stack.</p>
+		<p>I also make art <!-- and games --> when inspiration strikes.</p>
+	</main>
+</Layout>
+
+<style>
+	h1 {
+		margin: 2rem 0 0;
+	}
+
+	h2 { margin: 0; }
+
+	p { margin: 0; }
+
+	main {
+		margin: auto;
+		padding: 1em;
+		max-width: 60ch;
+	}
+</style>
+
+<!--
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
@@ -94,3 +123,4 @@ import Card from '../components/Card.astro';
 		padding: 0;
 	}
 </style>
+-->
