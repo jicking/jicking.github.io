@@ -1,39 +1,39 @@
 :root {
-    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-    --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
-    --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+  --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+  --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+  --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
 
-    --color-text: hsl(12, 5%, 4%);
-    --color-bg: hsl(0, 0%, 100%);
-    --color-border: hsl(17, 24%, 90%);
+  --color-text: hsl(12, 5%, 4%);
+  --color-bg: hsl(0, 0%, 100%);
+  --color-border: hsl(17, 24%, 90%);
 }
 
 html {
-    font-family: 'Varela', sans-serif;
-    font-size: var(--font-size-base);
-    line-height: 1.6;
-    color: var(--color-text);
-    background-color: var(--color-bg);
+  font-family: 'Varela', sans-serif;
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-size: var(--font-size-xl);
+  font-size: var(--font-size-xl);
 }
 
 h2 {
-    font-size: var(--font-size-lg);
+  font-size: var(--font-size-lg);
 }
 
 code {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-        Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }

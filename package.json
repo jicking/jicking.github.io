@@ -7,10 +7,12 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "codeformat": "prettier --write ./src/"
   },
   "devDependencies": {
     "astro": "^1.0.6",
+    "prettier": "^2.7.1",
     "sass": "^1.54.4"
   }
 }
