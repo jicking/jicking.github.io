@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
+//import Card from "../components/Card.astro";
+import TestButton from "../components/testButton.svelte";
 ---
 
 <Layout title="Jicking Bebiro">
@@ -24,6 +25,7 @@ import Card from "../components/Card.astro";
     </p>
     <p style="display: none;">
       <a href="/html" target="_blank">HTML Document Test</a>
+	  <TestButton client:visible />
     </p>
   </main>
 </Layout>
